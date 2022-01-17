@@ -21,8 +21,8 @@ body{
 .tela{
     width: 500px;
     height: 320px;
-    /* background-color: linear-gradient(to right, #E8E8E8, #C1C1C1); */
-    background-color: #C1C1C1;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    /* background-color: #C1C1C1; */
     border: 2px solid #555;
     display: flex;
     flex-direction: column;
@@ -151,4 +151,18 @@ body{
     font-size: 14px;
     border-top: 2px solid #000;
     padding-left: 10px;
+}
+
+.aviso--grande{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.aviso--gigante{
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,10 +1,10 @@
 let etapas = [
   {
     titulo: "VEREADOR",
-    numero: 5,
+    numeros: 5,
     candidatos: [
       {
-        numero: 38111,
+        numero: '38111',
         nome: "Antônio Aristeu",
         partido: "PBL",
         fotos: [
@@ -16,7 +16,7 @@ let etapas = [
         ],
       },
       {
-        numero: 98182,
+        numero: '98182',
         nome: "Pacheco Silva",
         partido: "PLL",
         fotos: [
@@ -34,7 +34,7 @@ let etapas = [
     numeros: 2,
     candidatos: [
       {
-        numero: 99,
+        numero: '12',
         nome: "Marcos Paschoal",
         partido: "PLL",
         fotos: [
@@ -49,7 +49,22 @@ let etapas = [
             small: true,
           },
         ],
-        numero: 41,
+        numero: '56',
+        nome: "Pedro Thomaz",
+        partido: "PLJ",
+        fotos: [
+          {
+            url: "sem-imagem.png",
+            legenda: "Prefeito",
+            small: false,
+          },
+          {
+            url: "sem-imagem.png",
+            legenda: "Vice-prefeito",
+            small: true,
+          },
+        ],
+        numero: '41',
         nome: "Thereza Soares das Graças",
         partido: "PJR",
         fotos: [
